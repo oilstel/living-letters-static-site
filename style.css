@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1em;
+}
+.office {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.room {
+    text-align: center;
+}
+.phone {
+    font-size: 11vw;
+}
+.meeting-id {
+    font-size: 4vw;
+}
